@@ -1,13 +1,13 @@
 # Tradutor de Documentos DOCX
 
-Este script Python utiliza as bibliotecas `requests` e `python-docx` para traduzir o conteúdo de um documento Word (.docx). Ele lê o texto de cada parágrafo do documento original, envia o texto para um serviço de tradução e, em seguida, salva o conteúdo traduzido em um novo arquivo .docx.
+Este script Python utiliza o serviço **Azure AI Translator** e as bibliotecas `requests` e `python-docx` para traduzir o conteúdo de um documento Word (.docx). Ele lê o texto de cada parágrafo, envia-o para a API do Azure para tradução e, em seguida, salva o conteúdo traduzido em um novo arquivo .docx.
 
 ---
 
 ## Funcionalidades
 
 * Lê parágrafos de um arquivo .docx existente.
-* Traduz o texto de cada parágrafo.
+* Traduz o texto de cada parágrafo usando o serviço de tradução do Azure.
 * Cria um novo documento .docx com o texto traduzido.
 * Salva o arquivo traduzido com um novo nome, mantendo o original intacto.
 
@@ -16,7 +16,7 @@ Este script Python utiliza as bibliotecas `requests` e `python-docx` para traduz
 ## Como Usar
 
 ### Pré-requisitos
-Certifique-se de ter o Python instalado. O script usa as bibliotecas `requests` e `python-docx`. A biblioteca `requests` é usada para fazer solicitações HTTP a APIs, enquanto a `python-docx` é uma biblioteca para criar e atualizar arquivos Word (.docx).
+Certifique-se de ter o Python instalado. O script usa as bibliotecas `requests` e `python-docx`.
 
 ### Instalação
 
