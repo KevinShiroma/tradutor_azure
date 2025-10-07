@@ -16,7 +16,7 @@ Este script Python utiliza o serviço **Azure AI Translator** e as bibliotecas `
 ## Como Usar
 
 ### Pré-requisitos
-Certifique-se de ter o Python instalado. O script usa as bibliotecas `requests` e `python-docx`.
+Certifique-se de ter o Python instalado, criar o recuros de tradutor da Azure para obter a key subscription. O script usa as bibliotecas `requests` e `python-docx`.
 
 ### Instalação
 
